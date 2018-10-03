@@ -22,7 +22,8 @@ public struct Theme {
     }
     
     public static func customizeAppAppearance(sharedApplication application:UIApplication, forWindow window: UIWindow?) {
-        application.statusBarStyle = .lightContent
+//        application.statusBarStyle = .lightContent
+        
         // Change the font and size of nav bar text.
         window?.tintColor = Theme.AppColor.windowTintColor
         
